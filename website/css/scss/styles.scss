@@ -1,0 +1,172 @@
+/* Scss Document */
+
+/* Imports */
+@import 'variables';
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $coral;
+}
+
+/* Fonts */
+body {
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	max-width: 1600px;
+	margin: auto;
+	background-color: $white;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+/* Links */
+a {
+	color: $white;
+	text-decoration: underline;
+}
+
+a.btn {
+	text-decoration:none;
+}
+
+.navbar a {
+	font-size: 1.2em;
+	margin-left: 1rem;
+}
+
+.navbar-dark a {
+	color: $white !important;
+	text-decoration: none;
+}
+
+.navbar-dark a:hover {
+	color: $lightblue !important;
+}
+
+.navbar-dark a:active {
+	color: $almostblack !important;
+}
+
+a.nav-link.active {
+	border-bottom: .2em solid $coral;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+	max-width: 120px;
+}
+
+.navbar {
+	background-color: $darkblue;
+	max-width: 1600px;
+	margin: auto;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224,224,224, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $white;
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217,82,107, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler:hover {
+  border-color: $coral;
+} 
+
+/* Jumbotron Styles */
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+	padding-top: var(--jumbotron-padding-y); 
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0; 
+	background-color: $lightblue;  
+	background-image: url('../images/jumbotron-image.jpg');
+	background-size: cover;
+	margin-top:4em;
+  
+}
+
+.jumbotron p {
+  color: #FFF;
+  font-size: 2em;
+  margin-top: 1.1em;
+  padding-bottom: 8.5em;
+}
+
+/* Footer Styles */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/* Misc Styles */
+.box-shadow { 
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.specialtext {
+	text-decoration: underline;
+	color: $darkblue;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+	.jumbotron {
+		background-image: none;
+		background-color: $lightblue;
+		margin-top:0;
+	}
+	
+	.jumbotron p {
+		margin-top:3em;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.jumbotron p {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.jumbotron p {
+		padding-bottom: 12em;
+		font-size: 2.2em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.jumbotron p {
+		padding-bottom: 10em;
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.jumbotron p {
+		padding-bottom: 12em;
+		font-size: 2.4em;
+	}
+}
