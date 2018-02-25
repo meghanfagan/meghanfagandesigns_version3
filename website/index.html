@@ -24,7 +24,7 @@
     
     <!-- Navbar -->
      <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Meghan Fagan Logo" class="img-fluid mx-auto"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Meghan Fagan Logo" title="Home" class="img-fluid mx-auto"></a>
       <button class="navbar-toggler custom-toggler align-self-start mt-1" type="button" data-toggle="collapse" data-target="#portfolionav" aria-controls="portfolionav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,16 +32,16 @@
       <div class="collapse navbar-collapse" id="portfolionav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#portfoliosection">Portfolio</a>
+            <a class="nav-link" href="#portfoliosection" title="View Meghan Fagan's Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aboutsection">About</a>
+            <a class="nav-link" href="#aboutsection" title="Learn About Meghan Fagan">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contactsection">Contact</a>
+            <a class="nav-link" href="#contactsection" title="Contact Meghan Fagan">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="#" title="View Meghan Fagan's Resume">Resume</a>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
       <!-- Jumbotron -->
       <section class="jumbotron text-center">
         <div class="container">
-			<p>I’m a <span class="specialtext">web</span> and <span class="specialtext">ux</span> designer with a penchant for clean and clear design. A touch of whimsy here and there never hurts, either!</p>
+			<p>I’m a <span class="specialtext"><strong>web</strong></span> and <span class="specialtext"><strong>ux</strong></span> designer with a penchant for clean and clear design. A touch of whimsy here and there never hurts, either!</p>
         </div>
       </section>
 
@@ -66,71 +66,156 @@
 		      <h1 class="text-center">Portfolio</h1>
 			</div>
 		  </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         <div class="row">
+		 	<div class="col-12">
+		 		<img alt="" class="img-fluid mx-auto d-block horizontallinebreak" src="images/dark-blue-rectangle-line-break.jpg">
+			</div>
+         </div>
+         <!-- Portfolio Navigation -->
+         <div class="row">
+		 	<div class="col-12">
+		 		<ul class="nav nav-pills mb-3 justify-content-center portfolionav" id="pills-tab" role="tablist">
+				  <li class="nav-item">
+					  <a class="nav-link active portfolio-link" id="web-ux-design-tab" data-toggle="pill" href="#webuxdesign" role="tab" aria-controls="webuxdesign" aria-selected="true" title="Web and UX Design Projects"><strong>Web and UX Design</strong></a>
+				  </li>
+				  <li class="nav-item">
+					  <a class="nav-link portfolio-link" id="graphic-design-tab" data-toggle="pill" href="#graphicdesign" role="tab" aria-controls="graphicdesign" aria-selected="false" title="Graphic Design Projects"><strong>Graphic Design</strong></a>
+				  </li>
+				  <li class="nav-item">
+					  <a class="nav-link portfolio-link" id="photography-illustration-tab" data-toggle="pill" href="#photographyillustration" role="tab" aria-controls="photographyillustration" aria-selected="false" title="Photography and Illustration Projects"><strong>Photography/Illustration</strong></a>
+				  </li>
+				</ul>
+				<div class="tab-content" id="pills-tabContent">
+		      
+			      <!-- Web/UX Design Content -->
+				  <div class="tab-pane fade show active" id="webuxdesign" role="tabpanel" aria-labelledby="web-ux-design-tab">
+				  	  <div class="row portfoliocontent">
+						<div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+							<img class="card-img-top" src="images/english-pub-website_thumbnail.jpg" alt="Thumbnail image of English pub website project">
+							<div class="card-body">
+								<h5 class="card-title"><strong>English Pub Website</strong></h5>
+							  <p class="card-text">A website for a fictitious pub named The Royal Oak.</p>
+							  <a href="#" class="btn portfoliobtn" title="View the English Pub Website Project">View Project</a>
+							</div>
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+							<img class="card-img-top" src="images/photography-portfolio_thumbnail.jpg" alt="Thumbnail image of photography portfolio project">
+							<div class="card-body">
+								<h5 class="card-title"><strong>Photography Portfolio</strong></h5>
+							  <p class="card-text">A portfolio website for Mollie Duvall Photography.</p>
+							  <a href="#" class="btn portfoliobtn" title="View the Photography Portfolio Project">View Project</a>
+							</div>
+						  </div>
+						</div>
+						<div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+							<img class="card-img-top" src="images/art-gallery-website_thumbnail.jpg" alt="Thumbnail image of art gallery website project">
+							<div class="card-body">
+								<h5 class="card-title"><strong>Art Gallery Website</strong></h5>
+							  <p class="card-text">A website for a fictitious art gallery.</p>
+							  <a href="#" class="btn portfoliobtn" title="View the Art Gallery Website Project">View Project</a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="row">
+					    <div class="col-md-4">
+						  <div class="card mb-4 box-shadow">
+							<img class="card-img-top" src="images/restaurant-reservation-website_thumbnail.jpg" alt="Thumbnail image of reservation website project">
+							<div class="card-body">
+								<h5 class="card-title"><strong>Reservation Website</strong></h5>
+							  <p class="card-text">A restaurant reservation website UX study.</p>
+							  <a href="#" class="btn portfoliobtn" title="View the Restaurant Reservation Website UX Study">View Project</a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+				  </div>
+				  
+				  <!-- Graphic Design Content -->
+				  <div class="tab-pane fade" id="graphicdesign" role="tabpanel" aria-labelledby="graphic-design-tab">
+					  <div class="row portfoliocontent">
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/seo-infographic_thumbnail.jpg" alt="Thumbnail image of SEO infographic project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>SEO Infographic</strong></h5>
+								  <p class="card-text">An infographic explaining the concept of SEO on-page optimization.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the SEO Infographic Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/academic-symposium-poster_thumbnail.jpg" alt="Thumbnail image of academic symposium poster project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>Academic Symposium Poster</strong></h5>
+								  <p class="card-text">A logo and poster design for Rasmussen College's 2016 Academic Symposium.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the Academic Symposium Poster Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/restaurant-menu-redesign_thumbnail.jpg" alt="Thumbnail image of restaurant menu redesign project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>Restaurant Menu Redesign</strong></h5>
+								  <p class="card-text">A redesigned restaurant menu with a 1950s theme.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the Restaurant Menu Redesign Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/arpanet-infographic_thumbnail.jpg" alt="Thumbnail image of ARPANET infographic project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>ARPANET Infographic</strong></h5>
+								  <p class="card-text">An infographic about the history of ARPANET.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the ARPANET Infographic Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+						  </div>
+				  </div>
+				  
+				  <!--Photography/Illustration Content -->
+				  <div class="tab-pane fade" id="photographyillustration" role="tabpanel" aria-labelledby="photography-illustration-tab">
+				  	<div class="row portfoliocontent">
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/outdoor-mall-illustration_thumbnail.jpg" alt="Thumbnail image of outdoor mall illustration project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>Outdoor Mall Illustration</strong></h5>
+								  <p class="card-text">A charcoal drawing of an outdoor mall in Kansas City, MO.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the Outdoor Mall Illustration Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-4">
+							  <div class="card mb-4 box-shadow">
+								<img class="card-img-top" src="images/portrait-photography_thumbnail.jpg" alt="Thumbnail image of portrait photography project">
+								<div class="card-body">
+									<h5 class="card-title"><strong>Portrait Photography</strong></h5>
+								  <p class="card-text">A portrait photography project featuring my husband.</p>
+								  <a href="#" class="btn portfoliobtn" title="View the Portrait Photography Project">View Project</a>
+								</div>
+							  </div>
+							</div>
+							<div class="col-md-4">
+							  
+							  </div>
+							</div>
+			        </div>
+				  </div>
+				</div>
+			 </div>
+         </div>
         </div>
-      </div>
     </section>
     
     <!-- About Section -->

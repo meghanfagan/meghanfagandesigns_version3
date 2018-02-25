@@ -6,10 +6,17 @@
 h1,
 h2,
 h3,
-h4,
+h4 {
+  color: #d9526b;
+}
+
+h1 {
+  font-size: 4em;
+}
+
 h5,
 h6 {
-  color: #d9526b;
+  color: #0F0F0F;
 }
 
 /* Fonts */
@@ -19,6 +26,26 @@ body {
   max-width: 1600px;
   margin: auto;
   background-color: #E0E0E0;
+  color: #0F0F0F;
+}
+
+/* Buttons */
+.btn {
+  background-color: #d9526b !important;
+  color: #FFF;
+  -webkit-box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.41);
+  -moz-box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.41);
+  box-shadow: 2px 2px 2px rgba(15, 15, 15, 0.41);
+}
+
+.btn:hover {
+  background-color: #E0E0E0 !important;
+  color: #0F0F0F;
+}
+
+.btn:active {
+  background-color: #0F0F0F !important;
+  color: #E0E0E0;
 }
 
 /* Images */
@@ -86,6 +113,23 @@ a.nav-link.active {
   border-color: #d9526b;
 }
 
+.portfolionav li a {
+  border-bottom: none !important;
+  text-decoration: none;
+  color: #0378A6;
+  font-size: 1.3em;
+}
+
+.portfolionav li a.active {
+  background-color: #d9526b !important;
+  color: #E0E0E0;
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
 /* Jumbotron Styles */
 :root {
   --jumbotron-padding-y: 3rem;
@@ -106,6 +150,17 @@ a.nav-link.active {
   font-size: 2em;
   margin-top: 1.1em;
   padding-bottom: 8.5em;
+  text-shadow: 2px 2px 1px #0F0F0F;
+}
+
+/* Line Breaks */
+.horizontallinebreak {
+  margin-bottom: 2rem;
+}
+
+/* Portfolio Styles */
+.portfoliocontent {
+  margin-top: 3rem;
 }
 
 /* Footer Styles */
@@ -126,6 +181,7 @@ footer p {
 .specialtext {
   text-decoration: underline;
   color: #01374C;
+  text-shadow: none;
 }
 
 /* Media Queries */

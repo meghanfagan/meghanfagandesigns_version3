@@ -7,10 +7,17 @@
 h1,
 h2,
 h3,
-h4,
+h4 {
+	color: $coral;
+}
+
+h1 {
+	font-size: 4em;
+}
+
 h5,
 h6 {
-	color: $coral;
+	color: $almostblack;
 }
 
 /* Fonts */
@@ -20,6 +27,26 @@ body {
 	max-width: 1600px;
 	margin: auto;
 	background-color: $white;
+	color: $almostblack;
+}
+
+/* Buttons */
+.btn {
+	background-color: $coral !important;
+	color: #FFF;
+	-webkit-box-shadow: 2px 2px 2px rgba(15,15,15,0.41);
+	-moz-box-shadow: 2px 2px 2px rgba(15,15,15,0.41);
+	box-shadow: 2px 2px 2px rgba(15,15,15,0.41);
+}
+
+.btn:hover {
+	background-color: $white !important;
+	color: $almostblack;
+}
+
+.btn:active {
+	background-color: $almostblack !important;
+	color: $white;
 }
 
 /* Images */
@@ -85,7 +112,25 @@ a.nav-link.active {
 
 .custom-toggler.navbar-toggler:hover {
   border-color: $coral;
-} 
+}
+
+.portfolionav li a {
+	border-bottom: none !important;
+	text-decoration: none;
+	color: $lightblue;
+	font-size: 1.3em;
+	
+}
+
+.portfolionav li a.active {
+	background-color: $coral !important;
+	color: $white;
+	text-decoration: none;
+}
+
+.portfolio-link:hover {
+	text-decoration: underline;
+}
 
 /* Jumbotron Styles */
 :root {
@@ -108,6 +153,17 @@ a.nav-link.active {
   font-size: 2em;
   margin-top: 1.1em;
   padding-bottom: 8.5em;
+  text-shadow: 2px 2px 1px #0F0F0F;
+}
+
+/* Line Breaks */
+.horizontallinebreak {
+	margin-bottom: 2rem;
+}
+
+/* Portfolio Styles */
+.portfoliocontent {
+	margin-top: 3rem;
 }
 
 /* Footer Styles */
@@ -128,6 +184,7 @@ footer p {
 .specialtext {
 	text-decoration: underline;
 	color: $darkblue;
+	text-shadow: none;
 }
 
 /* Media Queries */
