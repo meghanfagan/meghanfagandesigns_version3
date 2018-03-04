@@ -15,6 +15,18 @@ h1 {
 	font-size: 4em;
 }
 
+.specialh1 {
+	color: $white;
+}
+
+.specialh2 {
+	color: $lightblue;
+}
+
+.specialh3 {
+	color: $coral;
+}
+
 h5,
 h6 {
 	color: $almostblack;
@@ -25,10 +37,16 @@ body {
 	font-family: 'Lato', sans-serif;
 	position: relative;
 	max-width: 1600px;
-	margin: auto;
 	background-color: $white;
 	color: $almostblack;
 }
+
+
+.copyright {
+  color: $white;
+	opacity: .5;
+}
+
 
 /* Buttons */
 .btn {
@@ -77,6 +95,7 @@ a.btn {
 
 .navbar-dark a:hover {
 	color: $lightblue !important;
+	text-decoration:none;
 }
 
 .navbar-dark a:active {
@@ -88,7 +107,7 @@ a.nav-link.active {
 }
 
 /* Navbar Styles */
-.navbar-brand {
+.navbar-brand, .footerlogo {
 	max-width: 120px;
 }
 
@@ -132,6 +151,17 @@ a.nav-link.active {
 	text-decoration: underline;
 }
 
+.navbar-header {
+    float: left; 
+    text-align: center;
+    width: 100%;
+}
+
+.thankslogo {
+	float: none;
+	
+}
+
 /* Jumbotron Styles */
 :root {
   --jumbotron-padding-y: 3rem;
@@ -162,14 +192,75 @@ a.nav-link.active {
 }
 
 /* Portfolio Styles */
+
 .portfoliocontent {
 	margin-top: 3rem;
+}
+
+/* About Styles */
+.aboutpicture {
+	padding-right: 1.5rem;
+	padding-bottom:1rem;
+}
+
+.aboutlist ul {
+	list-style-image: url('../images/bullet.jpg');
+	display:inline-block;
+	text-align:left;
+	margin-top:2em;
+}
+
+/* Contact Styles */
+.contactbackground {
+	background-color: $lightblue;
+}
+
+label {
+	font-size: 1.75rem;
+	color: $white;
+	font-weight:900;
+}
+
+.required, .requiredtext {
+	color: #ff9999;
+}
+
+.requiredtext {
+	font-size: 1.1em;
+}
+
+/* CAPTCHA styles */
+.capbox {
+	background-color: none;
+}
+
+.capbox-inner {
+	color: $white;
+	margin-top: 5px;
+	padding: 0 3px;
+}
+
+#CaptchaDiv {
+	font: bold 1.5em verdana, arial, sans-serif;
+	font-style: italic;
+	color: #000000;
+	}
+
+#CaptchaInput { 
+	width: 135px;
+}
+
+/* Thanks Page Styles */
+.thanksheading {
+	margin-top:6rem;
+	font-size: 2.3em;
 }
 
 /* Footer Styles */
 footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
+  background-color: $darkblue;
 }
 
 footer p {
@@ -185,6 +276,24 @@ footer p {
 	text-decoration: underline;
 	color: $darkblue;
 	text-shadow: none;
+}
+
+.specialtext2 {
+	font-size: 2em;
+	color: $lightblue;
+	font-weight:900;
+}
+
+.specialtext3 {
+	color: $coral;
+	font-weight:900;
+}
+
+.anchor {
+	display: block;
+	height: 50px;
+	margin-top: -50px;
+	visibility: hidden;
 }
 
 /* Media Queries */

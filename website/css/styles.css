@@ -14,6 +14,18 @@ h1 {
   font-size: 4em;
 }
 
+.specialh1 {
+  color: #E0E0E0;
+}
+
+.specialh2 {
+  color: #0378A6;
+}
+
+.specialh3 {
+  color: #d9526b;
+}
+
 h5,
 h6 {
   color: #0F0F0F;
@@ -24,9 +36,13 @@ body {
   font-family: 'Lato', sans-serif;
   position: relative;
   max-width: 1600px;
-  margin: auto;
   background-color: #E0E0E0;
   color: #0F0F0F;
+}
+
+.copyright {
+  color: #E0E0E0;
+  opacity: .5;
 }
 
 /* Buttons */
@@ -76,6 +92,7 @@ a.btn {
 
 .navbar-dark a:hover {
   color: #0378A6 !important;
+  text-decoration: none;
 }
 
 .navbar-dark a:active {
@@ -87,7 +104,7 @@ a.nav-link.active {
 }
 
 /* Navbar Styles */
-.navbar-brand {
+.navbar-brand, .footerlogo {
   max-width: 120px;
 }
 
@@ -130,6 +147,16 @@ a.nav-link.active {
   text-decoration: underline;
 }
 
+.navbar-header {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.thankslogo {
+  float: none;
+}
+
 /* Jumbotron Styles */
 :root {
   --jumbotron-padding-y: 3rem;
@@ -163,10 +190,70 @@ a.nav-link.active {
   margin-top: 3rem;
 }
 
+/* About Styles */
+.aboutpicture {
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.aboutlist ul {
+  list-style-image: url("../images/bullet.jpg");
+  display: inline-block;
+  text-align: left;
+  margin-top: 2em;
+}
+
+/* Contact Styles */
+.contactbackground {
+  background-color: #0378A6;
+}
+
+label {
+  font-size: 1.75rem;
+  color: #E0E0E0;
+  font-weight: 900;
+}
+
+.required, .requiredtext {
+  color: #ff9999;
+}
+
+.requiredtext {
+  font-size: 1.1em;
+}
+
+/* CAPTCHA styles */
+.capbox {
+  background-color: none;
+}
+
+.capbox-inner {
+  color: #E0E0E0;
+  margin-top: 5px;
+  padding: 0 3px;
+}
+
+#CaptchaDiv {
+  font: bold 1.5em verdana, arial, sans-serif;
+  font-style: italic;
+  color: #000000;
+}
+
+#CaptchaInput {
+  width: 135px;
+}
+
+/* Thanks Page Styles */
+.thanksheading {
+  margin-top: 6rem;
+  font-size: 2.3em;
+}
+
 /* Footer Styles */
 footer {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
+  background-color: #01374C;
 }
 
 footer p {
@@ -182,6 +269,24 @@ footer p {
   text-decoration: underline;
   color: #01374C;
   text-shadow: none;
+}
+
+.specialtext2 {
+  font-size: 2em;
+  color: #0378A6;
+  font-weight: 900;
+}
+
+.specialtext3 {
+  color: #d9526b;
+  font-weight: 900;
+}
+
+.anchor {
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
 }
 
 /* Media Queries */
