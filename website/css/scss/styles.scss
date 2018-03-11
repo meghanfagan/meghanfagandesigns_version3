@@ -19,12 +19,26 @@ h1 {
 	color: $white;
 }
 
+.projecth1 {
+	margin-top: 2.3em;
+}
+
+.projecth2 {
+	font-size: 2.5em;
+	border-bottom: .2em solid $lightblue;
+}
+
 .specialh2 {
 	color: $lightblue;
 }
 
 .specialh3 {
 	color: $coral;
+}
+
+.projectintroh4 {
+	border-bottom: .15em solid $lightblue;
+	margin-bottom:.3em;
 }
 
 h5,
@@ -75,8 +89,16 @@ img {
 
 /* Links */
 a {
-	color: $white;
+	color: $lightblue;
 	text-decoration: underline;
+}
+
+a:hover {
+	color: $linkhover;
+}
+
+a:active {
+	color: $almostblack;
 }
 
 a.btn {
@@ -203,7 +225,7 @@ a.nav-link.active {
 	padding-bottom:1rem;
 }
 
-.aboutlist ul {
+.aboutlist ul, .materialsusedlist ul {
 	list-style-image: url('../images/bullet.jpg');
 	display:inline-block;
 	text-align:left;
@@ -254,6 +276,16 @@ label {
 .thanksheading {
 	margin-top:6rem;
 	font-size: 2.3em;
+}
+
+/* Project Page Styles */
+.introbackground {
+	background-color: rgba(1, 55, 76, 0.2);
+	border-radius: .5em;
+}
+
+.materialsusedlist ul {
+	margin-top:.1em;
 }
 
 /* Footer Styles */

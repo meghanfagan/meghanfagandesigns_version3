@@ -18,12 +18,26 @@ h1 {
   color: #E0E0E0;
 }
 
+.projecth1 {
+  margin-top: 2.3em;
+}
+
+.projecth2 {
+  font-size: 2.5em;
+  border-bottom: 0.2em solid #0378A6;
+}
+
 .specialh2 {
   color: #0378A6;
 }
 
 .specialh3 {
   color: #d9526b;
+}
+
+.projectintroh4 {
+  border-bottom: 0.15em solid #0378A6;
+  margin-bottom: .3em;
 }
 
 h5,
@@ -73,8 +87,16 @@ img {
 
 /* Links */
 a {
-  color: #E0E0E0;
+  color: #0378A6;
   text-decoration: underline;
+}
+
+a:hover {
+  color: #05aadd;
+}
+
+a:active {
+  color: #0F0F0F;
 }
 
 a.btn {
@@ -197,7 +219,7 @@ a.nav-link.active {
   padding-bottom: 1rem;
 }
 
-.aboutlist ul {
+.aboutlist ul, .materialsusedlist ul {
   list-style-image: url("../images/bullet.jpg");
   display: inline-block;
   text-align: left;
@@ -248,6 +270,16 @@ label {
 .thanksheading {
   margin-top: 6rem;
   font-size: 2.3em;
+}
+
+/* Project Page Styles */
+.introbackground {
+  background-color: rgba(1, 55, 76, 0.2);
+  border-radius: .5em;
+}
+
+.materialsusedlist ul {
+  margin-top: .1em;
 }
 
 /* Footer Styles */
